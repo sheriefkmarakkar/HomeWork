@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script>
+          $(document).ready(function(){
+              $("#login1").click(function(){
+                  $("#login").show();
+                  $("#r").hide();
+              })
+              $("#reg").click(function(){
+                  $("#login").hide();
+                  $("#r").show();
+              })
+          })
+    </script>
+    
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <nav class="navbar navbar-expand-lg navbar-red bg-dark">
+            <a class="navbar-brand" id="login1" href="#">Login</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" id="reg" href="#">Registration</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" id="reg" ref="#">Registration <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                Navbar text with an inline element
+              </span>
+            </div>
+          </nav>
+</head>
+<body>
+        
+<div class="container">
+    <div class="row">
+        <div id="login" class="card" style="padding:20%;">
+            <table  class="table">
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" id="user"/></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" id="pass"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" id="submit" class="btn btn-success" value="Login"/></td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="r" class="card" style="padding: 20%;margin-top: 3px">
+            <table>
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" id="name"/></td>
+                </tr>
+                <tr>
+                    <td>Age :</td>
+                    <td><input type="number" id="age" min="18" max="35"/></td>
+                </tr>
+                <tr>
+                    <td>District :</td>
+                    <td><input type="text" id="dis"/></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="g" value="m">Male<input type="radio" name="g" value="f"/>Female</td>
+                </tr>
+                <tr>
+                    <td>Username :</td>
+                    <td><input type="text" id="uname"/></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" id="pass"/></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password :</td>
+                    <td><input type="password" id="cpass"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" class="btn btn-success" value="Register"/></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
