@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=
+
+    , initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+
+        var count=0;
+
+         $(document).ready(function(){
+
+             $("#b1").click(function(){
+
+                count++;
+
+                $("label").text(count);
+
+                if(count>=10)
+
+                {
+
+                    $("button").attr("disabled",true);
+
+                }
+
+                
+
+                
+
+             })
+
+         })
+
+    </script>
+
+</head>
+
+
+
+<body>
+
+    <button id="b1" type="button">Click Me</button>
+
+    <p>You clicked me <label>0</label>Times</p>
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat eligendi est consequuntur nesciunt dolore? Cupiditate sunt quod nemo ratione officiis quisquam, delectus adipisci exercitationem cumque quidem fugit eum qui iure?
+
+<pre>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ipsum non itaque ullam deserunt enim est rerum atque animi beatae ex quod possimus exercitationem, modi eveniet numquam velit perferendis dignissimos.</pre>
+
+
+
+
+
+<hr>
+
+<h2>This is heading 2</h2>
+
+<p>This is some other text.</p>
+
+<hr>
+
+
+
+</body>
+
+</html>
