@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="result">
+<table>
+    <tr>
+        <td>Enter Number  :</td>
+        <td><input type="text" id="text1"/></td>
+    </tr>
+    
+    <tr><td></td>
+    <td><input type="button" id="r" value="Submit" onclick="check();"/></td>
+    </tr>
+    <h1 id="h"></h1>
+</table>
+    </div>
+    <script>
+         function check()
+         {
+
+             var a=parseInt(document.getElementById("text1").value);
+             even(a,(res)=>{
+                 document.getElementById("h").innerHTML=res;
+
+             })
+
+             function even(x,callback)
+             {
+                 if(x%2==0)
+                 {
+                     callback("even");
+                 }
+                 else
+                 {
+                     callback("odd");
+                 }
+             }
+             
+            
+         }
+         
+    </script>
+</body>
+</html>

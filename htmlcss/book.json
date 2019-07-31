@@ -1,29 +1,29 @@
-{"books":[{
+{ "books":[ {
     "bid":"45",
     "bname":"äbcd",
     "bdis":"loremvbdkjvbdvbdcbvjxcbvjkbf dhvdjvhbsdjv",
     "bcat":"novel",
     "auther":"sherief"
-},
+} ,
 {
     "bid":"00",
-    "bname":"kjvsdkjv",
+    "bname":"Guide To Technical Analysis & Candlesticks",
     "bdis":"lorecxkvcvcvmvbdkjvbdvbdcbvjxcbvjkbf dhvdjvhbsdjv",
     "bcat":"novel",
-    "auther":"sheriefkm"
-},
+    "auther":"Ravi Patel"
+} ,
 {
     "bid":"34",
-    "bname":"äbgcbcd",
-    "bdis":"loremvbdkjvbdvbdcbvjxcbvjkbf dhvdjvhbsdjv",
-    "bcat":"scince",
-    "auther":"xnvcxvcvj"
-},
+    "bname":"DATA COMMUNICATIONS AND NETWORKING (SIE)",
+    "bdis":"Data Communications And Networking (SIE) by Behrouz Forouzan is a comprehensive reference book for students pursuing their courses on networking. With detailed accounts on the data transmission protocols and networking, the book is a useful for various the engineering courses in communication, computer science, and IT. Further, the book also finds usage as a preparatory material for the various other technology related courses too.This book starts with a detailed account on network models, thus providing the user with an ideal introduction on data transmission. The protocols and standards, as well as the physical structures of the networks are also discussed extensively here. The Data Communications And Networking (SIE) follows a descriptive pattern, thus engaging users of all kind.A number of diagrams and tabular representations are also included in the book, thus making it m",
+    "bcat":"programming",
+    "auther":"Behrouz A. Forouzan"
+} ,
 {
-    "bid":"54",
-    "bname":"kalikkudukka",
-    "bdis":"loremvbdkjvbdvbdcbvjxcbvjkbf dhvdjvhbsdjv",
-    "bcat":"novel",
-    "auther":"ghhhh"
-}]
+    "bid":"01",
+    "bname":"Computer Fundamentals",
+    "bdis":"P K Sinha designed Computer Fundamentals to introduce its readers to important concepts in Computer Science. Computer Fundamentals is written in a manner that it can be used as a textbook for many introductory courses related to IT and Computer Science. For beginners, it is useful because of its sheer simplicity and explanation of fundamentals.The book has numerous illustrative diagrams, practical examples, chapter summaries, end-of-chapter questions, and a glossary of important terms. Beginners in computer science can refer to this book for guidance as it provides a clear idea about the working of the machine. The book can also be used as a self-study material due to its easy language and well-refined content.The book has covered some major topics like Numb",
+    "bcat":"programming",
+    "auther":"P. K. Sinha"
+} ]
 }

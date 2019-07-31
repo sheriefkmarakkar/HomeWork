@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="text"></h1>
+    <script>
+        var mypromise=new Promise((resolve,reject)=>{
+        var result="A+";
+        if(result=="A+")
+        resolve();
+        else
+        reject();
+        });
+        mypromise.then(()=>{
+            document.getElementById("text").innerHTML="Promise Is Resolved";
+
+        })
+        mypromise.catch(()=>{
+            document.getElementById("text").innerHTML="Promise Is Rejected";
+        })
+
+
+    </script>
+</body>
+</html>
